@@ -49,7 +49,7 @@ void loop() {
       if(sum>30){
         //[F, E, O, V, H, S]
         s.debugPrint();
-        if (s.o > s.e && s.e > 10 && s.e < 20 && s.f < s.e && s.v < s.e && s.h < s.e && s.s < s.e) {
+        if (s.o > s.e && s.e > 10 && s.e < 30 && s.f < s.e && s.v < s.e && s.h < s.e && s.s < s.e) {
           if (!areLightsOn) {
             lightsOn();
             areLightsOn = true;
